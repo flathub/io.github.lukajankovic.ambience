@@ -22,7 +22,7 @@
         "*.a"
     ],
     "modules" : [
-        "python3-lifxlan.json",
+        "pypi-dependencies.json",
         {
             "name" : "libhandy",
             "buildsystem" : "meson",
@@ -51,7 +51,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/LukaJankovic/Ambience",
-                    "tag" : "v1.1.1"
+                    "tag" : "v1.1.0"
                 }
             ]
         }
